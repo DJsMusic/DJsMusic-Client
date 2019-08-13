@@ -1,40 +1,46 @@
 {
-  "name": "DJsMusic-Client",
-  "version": "0.0.2",
-  "description": "Web client for the DJs Music API ",
-  "main": "js/main.js",
+  "name": "djsmusic-client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "grunt": "~0.4.4"
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.5",
+    "deferred": "^0.7.9",
+    "hoist-non-react-statics": "^2.3.1",
+    "immutable": "^3.8.1",
+    "intl": "^1.2.5",
+    "invariant": "^2.2.2",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-hotkeys": "^0.10.0",
+    "react-intl": "^2.4.0",
+    "react-loadable": "^5.3.1",
+    "react-redux": "^5.0.5",
+    "react-redux-loading-bar": "^3.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "5.0.0-alpha.8",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.3",
+    "redux-history-transitions": "^2.2.0",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1",
+    "resource-path": "^1.4.0",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.77.1",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "grunt-contrib-cssmin": "^0.9.0",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-shell": "^0.6.4",
-    "grunt-line-remover": "0.0.2",
-    "grunt-hashres": "^0.4.1",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-requirejs": "^0.4.3",
-    "grunt-contrib-rename": "0.0.3",
-    "grunt-gh-pages": "^0.9.1",
-    "grunt-release-branch": "^0.2.0"
+    "flow-bin": "^0.61.0",
+    "react-scripts": "1.0.17"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DJsMusic/DJsMusic-Client.git"
-  },
-  "keywords": [
-    "DJsMusic",
-    "music",
-    "backbone",
-    "app"
-  ],
-  "author": "Alejandro U. Alvarez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DJsMusic/DJsMusic-Client/issues"
-  },
-  "homepage": "https://github.com/DJsMusic/DJsMusic-Client"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
